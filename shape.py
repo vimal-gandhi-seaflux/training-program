@@ -17,14 +17,16 @@ def square():
         print()
     
 def triangle():
-    for i in range(1,5):
-    
-        for s in range(1,5-i):
-            print(end=" ")
-        for j in range(i) :
-            print("*",end=" ")
-        print()
+   for i in range(8):
+    for j in range(8 - i - 1):
+        print( end=" ")
 
+    for k in range(2 * i + 1):
+        if k == 0 or k == 2 * i or i==7:
+            print('*', end='')
+        else:
+                print(end=" ")
+    print()
 a= 'a'
 while(a != 'q'):
     a=input("enter which shape you want to print:ractangle,square,triangle or you want to quite than press q:")
