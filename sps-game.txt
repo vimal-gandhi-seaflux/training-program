@@ -1,0 +1,6 @@
+ round-no:1   user choice:paper system choice:sissor  winner of round: computer win 
+ round-no:2   user choice:paper system choice:sissor  winner of round: computer win 
+ round-no:3   user choice:paper system choice:paper  winner of round: you win 
+ round-no:4   user choice:paper system choice:stone  winner of round: computer win 
+ round-no:5   user choice:paper system choice:stone  winner of round: computer win 
+ 
